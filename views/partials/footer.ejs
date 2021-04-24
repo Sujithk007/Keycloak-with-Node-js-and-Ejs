@@ -1,0 +1,17 @@
+
+<% var Year = new Date().getFullYear() %>
+<div class="footer-padding"></div>
+  <div class="footer">
+    <p>© <%= Year %> Copyright: Home Connect</p>
+  </div>
+</div>
+
+<script>
+  var preloader = document.getElementById('loading');
+  async function myfunction(){
+    await setTimeout(() =>preloader.style.display = 'none',2000);
+  }
+</script>
+</body>
+
+</html>
