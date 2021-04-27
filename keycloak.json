@@ -1,0 +1,10 @@
+{
+  "realm": "Nodejs",
+  "auth-server-url": "http://localhost:8080/auth/",
+  "ssl-required": "external",
+  "resource": "backend",
+  "credentials": {
+    "secret": "5210e26f-a9b6-4313-bf52-099ebbe8cdd6"
+  },
+  "confidential-port": 0
+}

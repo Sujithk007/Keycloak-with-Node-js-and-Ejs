@@ -5,18 +5,11 @@ var session = require("express-session");
 var memoryStore = new session.MemoryStore();
 const app = express();
 
+const keycloak_json = require("./keycloak.json");
+
 // Keycloak config
 // You can get this from the "Installation" tab of your Realm (app) in Keycloak
-const keycloakConf = {
-  realm: "NodeJs_Token",
-  "auth-server-url": "http://localhost:8080/auth/",
-  "ssl-required": "external",
-  resource: "backend",
-  credentials: {
-    secret: "21946662-e365-4a90-b2ec-4cefd9ade658",
-  },
-  "confidential-port": 0,
-};
+const keycloakConf = keycloak_json;
 
 // Initializing Keycloak with memory store and Config.
 const kc = new Keycloak({ store: memoryStore }, keycloakConf);
