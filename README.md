@@ -49,7 +49,8 @@
 
       ![image](https://user-images.githubusercontent.com/49073723/116204312-4a471600-a75a-11eb-8b2a-dc19ae0d2bb5.png)
 
-   7. Now add the client ID as &quot;backend&quot;, client Protocol to &quot;open-connect&quot; and root URL of Node Js server which is &quot; [http://localhost:3000/]                 (http://localhost:3000/) &quot; and click on save.
+   7. Now add the client ID as &quot;backend&quot;, client Protocol to &quot;open-connect&quot; and root URL of Node Js server which is &quot; 
+      [http://localhost:3000/](http://localhost:3000/) &quot; and click on save.
 
       ![image](https://user-images.githubusercontent.com/49073723/116204342-50d58d80-a75a-11eb-9e5e-1522f8ab752e.png)
 
