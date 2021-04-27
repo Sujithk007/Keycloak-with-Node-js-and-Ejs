@@ -17,7 +17,7 @@
         ![](RackMultipart20210427-4-tg52gb_html_68c5e3091170b437.gif)
 
      ``` 
-        docker run -e DB\_VENDOR=H2 -e KEYCLOAK\_USER=admin -e KEYCLOAK\_PASSWORD=password -p 8080:8080 --name keycloak -dit jboss/keycloak
+     docker run -e DB\_VENDOR=H2 -e KEYCLOAK\_USER=admin -e KEYCLOAK\_PASSWORD=password -p 8080:8080 --name keycloak -dit jboss/keycloak
 
      ```
 
